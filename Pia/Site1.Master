@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Pia.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+        <link href="Estilos/Estilos2.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="navbar">
+                <ul>
+                    <li><a href="Computadoras.aspx">Computadoras</a></li>
+                    <li><a href="laptops.aspx">Laptops</a></li>
+
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                        <li><a></a>                                         </li>
+                                                            
+                    <li><a href="registro.aspx">Iniciar Sesión</a></li>
+                </ul>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+</div>
+    </form>
+</body>
+</html>
